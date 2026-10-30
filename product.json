@@ -35,7 +35,7 @@
     {
       "type": "ws_active",
       "name": "Activity Checker",
-      "min": 1000,
+      "min": 1,
       "max": 10000000,
       "fields": [
         "number",
@@ -44,11 +44,14 @@
         "activedays",
         "business"
       ],
-      "fields_note": "The live sample generator removes the retired signature column."
+      "fields_note": "The live sample generator removes the retired signature column.",
+      "product_id": 2,
+      "min_billable_numbers": 500,
+      "available": true
     }
   ],
   "pricing_url": "https://numberchecker.ai/pricing",
   "maintainer": "NumberChecker",
   "license": "MIT",
-  "last_reviewed": "2026-08-18"
+  "last_reviewed": "2026-10-30"
 }
